@@ -1,0 +1,102 @@
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  font: 12px -apple-system, Helvetica, Arial, Tahoma, "PingFang SC", "Microsoft yahei", "Hiragino Sans GB", "Lantinghei SC", "Microsoft YaHei", sans-serif;
+  color: #333; }
+
+li, ol, ul {
+  list-style: none; }
+
+button, fieldset, img, input {
+  border: 0;
+  outline: 0; }
+
+a, input, select, textarea {
+  outline: 0; }
+
+address, cite, dfn, em, i, var {
+  font-style: normal; }
+
+html, body {
+  height: 100%; }
+
+.header {
+  width: 100%;
+  padding-top: 25px; }
+
+.navbar {
+  width: 900px;
+  margin: 0 auto; }
+  .navbar .logo {
+    width: 105px; }
+  .navbar .menu {
+    float: right;
+    line-height: 63px;
+    font-size: 16px; }
+    .navbar .menu a {
+      position: relative;
+      color: #000;
+      text-decoration: none;
+      display: inline-block;
+      margin-left: 40px;
+      transition: opacity .5s; }
+      .navbar .menu a:hover {
+        opacity: .6; }
+      .navbar .menu a.active:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 18px;
+        width: 100%;
+        height: 2px;
+        background-color: #000; }
+    .navbar .menu.menu-white a {
+      color: #fff; }
+    .navbar .menu.menu-white a.active:after {
+      background-color: #fff; }
+
+.container {
+  min-height: 500px; }
+
+.footer {
+  color: #fefefe;
+  background-color: #222;
+  padding: 45px 0 70px; }
+  .footer-bd {
+    position: relative;
+    width: 470px;
+    padding: 0 230px 0 200px;
+    margin: 0 auto; }
+    .footer-bd .logo, .footer-bd .logo2 {
+      position: absolute;
+      left: 40px;
+      top: 10px;
+      width: 100px; }
+    .footer-bd .logo2 {
+      top: 100px; }
+    .footer-bd .qr-code {
+      text-align: center;
+      position: absolute;
+      right: 50px;
+      top: 20px; }
+      .footer-bd .qr-code .qrcode {
+        width: 116px;
+        margin-bottom: 10px; }
+    .footer-bd .links {
+      text-align: center; }
+      .footer-bd .links .link-group {
+        display: inline-block;
+        width: 150px; }
+      .footer-bd .links .link-key {
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .footer-bd .links .link-val {
+        margin-bottom: 10px; }
+      .footer-bd .links a {
+        color: #fefefe;
+        text-decoration: none; }
+        .footer-bd .links a:hover {
+          text-decoration: underline; }
