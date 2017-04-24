@@ -116,11 +116,11 @@ img {
   background: url(../images/slash.png) repeat-x; }
 
 .header {
-  height: 1100px;
-  background: url(../images/contact/contact_01.jpg) center 0 no-repeat; }
+  height: 950px;
+  background: url(../images/contact/contact_01.jpg) center -150px no-repeat; }
   .header .contact-section {
     position: relative;
-    padding: 150px 0 0 560px;
+    padding: 70px 0 0 560px;
     width: 340px;
     margin: 0 auto; }
     .header .contact-section .contact-tit {
