@@ -114,6 +114,9 @@ img{ display: block; }
 
 .container{
     min-height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .section-slash{
@@ -121,4 +124,7 @@ img{ display: block; }
     min-width: 10px;
     height: 30px;
     background: url(../images/slash.png) repeat-x;
+    &.white{
+        background-image: url(../images/slash-white.png);
+    }
 }

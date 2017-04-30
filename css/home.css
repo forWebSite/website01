@@ -107,13 +107,18 @@ img {
       background-color: #fff; }
 
 .container {
-  min-height: 500px; }
+  min-height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
 
 .section-slash {
   position: absolute;
   min-width: 10px;
   height: 30px;
   background: url(../images/slash.png) repeat-x; }
+  .section-slash.white {
+    background-image: url(../images/slash-white.png); }
 
 .header {
   height: 696px;
@@ -152,7 +157,8 @@ img {
     padding-bottom: 2px;
     margin-bottom: 28px; }
   .section-desc {
-    line-height: 1.5; }
+    line-height: 1.5;
+    letter-spacing: 1px; }
   .section-more {
     margin-top: 30px;
     text-align: right; }
