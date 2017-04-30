@@ -1,0 +1,75 @@
+@import '../common';
+
+.header{
+    height: 536px;
+    background: url(../images/brand/brand_01.jpg) center 0 repeat-x;
+    background-size: auto 100%;
+}
+
+.section{
+    position: relative;
+    width: 900px;
+    margin: 30px auto;
+    .introduction{
+        position: absolute;
+        width: 540px;
+        top: 340px;
+        left: 336px;
+    }
+    .intro-tit{
+        margin-bottom: 20px;
+    }
+    .intro-hint{
+        display: inline-block;
+        font-size: 20px;
+        border-bottom:1px solid #000;
+        padding-bottom: 2px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .intro-desc{
+        text-align: left;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+    &.easy{
+        width: 520px;
+        text-align: center;
+    }
+
+    &-tit{
+        font-size: 24px;
+        margin: 30px auto 15px;
+    }
+    &-sub-tit{
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    &-cont{
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+    &.dev{
+        position: relative;
+        text-align: right;
+        .dev-img{
+            display: inline-block;
+        }
+        .develop{
+            position: absolute;
+            top: -30px;
+            width: 315px;
+            text-align: left;
+            .intro-hint{ margin-bottom: 30px; }
+            .intro-desc{ word-break: break-all; letter-spacing: 2px; }
+        }
+    }
+
+}
+
+.section-img{
+    height: 306px;
+    background: url('../images/brand/brand_03.jpg') center 0 repeat-x;
+}

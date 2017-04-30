@@ -122,76 +122,131 @@ img {
 
 .header {
   height: 536px;
-  background: #000 url(../images/products/pro_01.jpg) center 0 no-repeat;
+  background: url(../images/procraft/procraft_01.jpg) center 0 repeat-x;
   background-size: auto 100%; }
 
-.pro-section.bg1 {
-  background: url(../images/products/pro_02.jpg) center 0 repeat-x; }
+.proc-section.bg1 {
+  height: 400px;
+  background: url(../images/procraft/procraft_03.jpg) center 0 repeat-x; }
 
-.pro-section.bg2 {
-  background: url(../images/products/pro_03.jpg) center 0 repeat-x; }
-
-.pro-section.bg3 {
-  background: url(../images/products/pro_04.jpg) center 0 repeat-x; }
-
-.pro-section.bg4 {
-  background: url(../images/products/pro_05.jpg) center 0 repeat-x; }
+.proc-section.black {
+  background-color: #222; }
+  .proc-section.black .search-section {
+    width: 900px;
+    margin: 0 auto; }
+    .proc-section.black .search-section .search {
+      position: relative;
+      width: 560px;
+      margin: 30px auto 0;
+      padding-bottom: 60px; }
+      .proc-section.black .search-section .search .search-type {
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+        background-color: #e5e5e5;
+        color: #898989;
+        font-size: 16px;
+        line-height: 47px; }
+        .proc-section.black .search-section .search .search-type:hover {
+          cursor: pointer; }
+      .proc-section.black .search-section .search .search-input {
+        height: 47px;
+        line-height: 47px;
+        border: none;
+        font-size: 16px;
+        width: 324px;
+        padding: 0 20px;
+        border-radius: 25px 0 0 25px; }
+      .proc-section.black .search-section .search .search-btn {
+        position: absolute;
+        height: 47px;
+        width: 50px;
+        border-radius: 0 25px 25px 0;
+        background-color: #019758; }
+        .proc-section.black .search-section .search .search-btn > img {
+          margin: 10px 0 0 10px; }
+    .proc-section.black .search-section .search-title {
+      padding: 70px 0 50px;
+      text-align: right; }
+      .proc-section.black .search-section .search-title > img {
+        display: inline-block; }
+    .proc-section.black .search-section .search-hint {
+      color: #fff;
+      position: relative;
+      line-height: 2;
+      letter-spacing: 1px; }
+    .proc-section.black .search-section .pl70 {
+      padding-left: 70px;
+      margin-bottom: 10px; }
+    .proc-section.black .search-section .green {
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #009758; }
 
 .section {
-  padding-right: 330px;
   position: relative;
-  width: 570px;
-  height: 495px;
-  margin: 0 auto; }
-  .section-left {
-    position: relative;
-    width: 320px; }
-    .section-left img {
-      max-width: 550px; }
-  .section-right {
-    width: 285px;
+  width: 900px;
+  margin: 40px auto; }
+  .section .introduction {
     position: absolute;
-    right: 0;
-    top: 0;
-    text-align: right;
-    padding-left: 20px; }
-    .section-right img {
-      display: inline-block;
-      max-width: 306px; }
-  .section-tit {
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 1;
-    padding-top: 40px;
-    margin-bottom: 15px; }
-  .section-hint {
+    width: 540px;
+    top: 340px;
+    left: 336px; }
+  .section .intro-tit {
+    margin-bottom: 20px; }
+  .section .intro-hint {
     display: inline-block;
     font-size: 20px;
     border-bottom: 1px solid #000;
     padding-bottom: 2px;
     margin-bottom: 20px;
     font-weight: bold; }
-    .section-hint.no-border {
-      border-bottom: none; }
+  .section .intro-desc {
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px; }
+  .section.dev {
+    position: relative;
+    text-align: right; }
+    .section.dev .dev-img {
+      display: inline-block; }
+    .section.dev .develop {
+      position: absolute;
+      top: 0;
+      width: 310px;
+      text-align: left; }
+      .section.dev .develop .intro-hint {
+        margin-bottom: 30px; }
+      .section.dev .develop .intro-desc {
+        word-break: break-all;
+        letter-spacing: 2px; }
+  .section-right {
+    padding: 30px;
+    color: #fff;
+    float: right;
+    width: 325px; }
+  .section-tit {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 20px; }
+  .section-hint {
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    font-weight: bold; }
     .section-hint.white {
       color: #fff; }
   .section-desc {
     text-align: left;
-    line-height: 1.8;
+    line-height: 2;
     letter-spacing: 1px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding: 15px; }
-    .section-desc.no-bg {
-      background-color: transparent;
-      color: #000;
-      padding: 0; }
-  .section .mask-hint {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    line-height: 1.5;
-    padding: 10px 15px;
-    width: 400px;
-    color: #fff;
-    background-color: rgba(49, 49, 49, 0.8); }
+    color: #fff; }
+
+.section-img {
+  margin: 40px auto;
+  height: 275px;
+  background: url("../images/procraft/procraft_04.jpg") center 0 repeat-x; }

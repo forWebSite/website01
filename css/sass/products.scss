@@ -5,3 +5,82 @@
     background: #000 url(../images/products/pro_01.jpg) center 0 no-repeat;
     background-size: auto 100%;
 }
+
+.pro-section{
+    &.bg1{
+        background: url(../images/products/pro_02.jpg) center 0 repeat-x;
+    }
+    &.bg2{
+        background: url(../images/products/pro_03.jpg) center 0 repeat-x;
+    }
+    &.bg3{
+        background: url(../images/products/pro_04.jpg) center 0 repeat-x;
+    }
+    &.bg4{
+        background: url(../images/products/pro_05.jpg) center 0 repeat-x;
+    }
+}
+
+.section{
+    padding-right: 330px;
+    position:relative;
+    width: 570px;
+    height: 495px;
+    margin: 0 auto;
+    &-left{
+        position: relative;
+        width: 320px;
+        img{
+            max-width: 550px;
+        }
+    }
+    &-right{
+        width: 285px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-align: right;
+        padding-left: 20px;
+        img{
+            display: inline-block;
+            max-width: 306px;
+        }
+    }
+    &-tit{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 1;
+        padding-top: 40px;
+        margin-bottom: 15px;
+    }
+    &-hint{
+        display: inline-block;
+        font-size: 20px;
+        border-bottom:1px solid #000;
+        padding-bottom: 2px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        &.no-border{ border-bottom: none; }
+        &.white{ color: #fff; }
+    }
+    &-desc{
+        text-align: left;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        background-color: rgba(0,0,0,.6);
+        color: #fff;
+        padding: 15px;
+        &.no-bg{ background-color: transparent; color: #000; padding: 0; }
+    }
+
+    .mask-hint{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        line-height: 1.5;
+        padding: 10px 15px;
+        width: 400px;
+        color: #fff;
+        background-color: rgba(49,49,49,.8);
+    }
+}

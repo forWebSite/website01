@@ -1,0 +1,153 @@
+@import '../common';
+
+.header{
+    height: 536px;
+    background: url(../images/procraft/procraft_01.jpg) center 0 repeat-x;
+    background-size: auto 100%;
+}
+
+.proc-section{
+    &.bg1{
+        height: 400px;
+        background: url(../images/procraft/procraft_03.jpg) center 0 repeat-x;
+    }
+
+    &.black{
+        background-color: #222;
+        .search-section{
+            width: 900px;
+            margin: 0 auto;
+            .search{
+                position: relative;
+                width: 560px;
+                margin: 30px auto 0;
+                padding-bottom: 60px;
+                .search-type{
+                    display: inline-block;
+                    text-align: center;
+                    width: 120px;
+                    background-color: #e5e5e5;
+                    color: #898989;
+                    font-size: 16px;
+                    line-height: 47px;
+                    &:hover{ cursor: pointer; }
+                }
+                .search-input{
+                    height: 47px;
+                    line-height: 47px;
+                    border: none;
+                    font-size: 16px;
+                    width: 324px;
+                    padding: 0 20px;
+                    border-radius: 25px 0 0 25px;
+                }
+                .search-btn{
+                    position: absolute;
+                    height: 47px;
+                    width: 50px;
+                    border-radius: 0 25px 25px 0;
+                    background-color: #019758;
+                    &>img{
+                        margin: 10px 0 0 10px;
+                    }
+                }
+            }
+            .search-title{
+                padding: 70px 0 50px;
+                text-align: right;
+                &>img{ display: inline-block; }
+            }
+            .search-hint{
+                color: #fff;
+                position: relative;
+                line-height: 2;
+                letter-spacing: 1px;
+            }
+            .pl70{ padding-left: 70px; margin-bottom: 10px; }
+            .green{
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: #009758;
+            }
+        }
+    }
+}
+
+.section{
+    position: relative;
+    width: 900px;
+    margin: 40px auto;
+    .introduction{
+        position: absolute;
+        width: 540px;
+        top: 340px;
+        left: 336px;
+    }
+    .intro-tit{
+        margin-bottom: 20px;
+    }
+    .intro-hint{
+        display: inline-block;
+        font-size: 20px;
+        border-bottom:1px solid #000;
+        padding-bottom: 2px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .intro-desc{
+        text-align: left;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+    &.dev{
+        position: relative;
+        text-align: right;
+        .dev-img{
+            display: inline-block;
+        }
+        .develop{
+            position: absolute;
+            top: 0;
+            width: 310px;
+            text-align: left;
+            .intro-hint{ margin-bottom: 30px; }
+            .intro-desc{ word-break: break-all; letter-spacing: 2px; }
+        }
+    }
+
+    &-right{
+        padding: 30px;
+        color: #fff;
+        float: right;
+        width: 325px;
+    }
+    &-tit{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    &-hint{
+        display: inline-block;
+        font-size: 20px;
+        border-bottom:1px solid #fff;
+        padding-bottom: 2px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        &.white{ color: #fff; }
+    }
+    &-desc{
+        text-align: left;
+        line-height: 2;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+}
+
+.section-img{
+    margin: 40px auto;
+    height: 275px;
+    background: url('../images/procraft/procraft_04.jpg') center 0 repeat-x;
+}

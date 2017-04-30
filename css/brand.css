@@ -121,25 +121,61 @@ img {
     background-image: url(../images/slash-white.png); }
 
 .header {
-  height: 950px;
-  background: url(../images/contact/contact_01.jpg) center -150px no-repeat; }
-  .header .contact-section {
+  height: 536px;
+  background: url(../images/brand/brand_01.jpg) center 0 repeat-x;
+  background-size: auto 100%; }
+
+.section {
+  position: relative;
+  width: 900px;
+  margin: 30px auto; }
+  .section .introduction {
+    position: absolute;
+    width: 540px;
+    top: 340px;
+    left: 336px; }
+  .section .intro-tit {
+    margin-bottom: 20px; }
+  .section .intro-hint {
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    font-weight: bold; }
+  .section .intro-desc {
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px; }
+  .section.easy {
+    width: 520px;
+    text-align: center; }
+  .section-tit {
+    font-size: 24px;
+    margin: 30px auto 15px; }
+  .section-sub-tit {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px; }
+  .section-cont {
+    line-height: 1.8;
+    letter-spacing: 1px; }
+  .section.dev {
     position: relative;
-    padding: 70px 0 0 560px;
-    width: 340px;
-    margin: 0 auto; }
-    .header .contact-section .contact-tit {
-      margin-bottom: 15px; }
-    .header .contact-section .contact-hint {
-      display: inline-block;
-      font-size: 20px;
-      border-bottom: 2px solid #000;
-      margin-bottom: 25px; }
-    .header .contact-section .contact-desc {
-      line-height: 1.8;
-      letter-spacing: 1px; }
-      .header .contact-section .contact-desc h5 {
-        font-size: 18px;
-        margin-bottom: 5px; }
-      .header .contact-section .contact-desc p {
-        font-size: 14px; }
+    text-align: right; }
+    .section.dev .dev-img {
+      display: inline-block; }
+    .section.dev .develop {
+      position: absolute;
+      top: -30px;
+      width: 315px;
+      text-align: left; }
+      .section.dev .develop .intro-hint {
+        margin-bottom: 30px; }
+      .section.dev .develop .intro-desc {
+        word-break: break-all;
+        letter-spacing: 2px; }
+
+.section-img {
+  height: 306px;
+  background: url("../images/brand/brand_03.jpg") center 0 repeat-x; }
