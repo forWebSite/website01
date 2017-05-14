@@ -108,9 +108,9 @@ img {
 
 .container {
   min-height: 500px;
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden; }
+  min-width: 1200px;
+  overflow-x: hidden;
+  margin: 0 auto; }
 
 .section-slash {
   position: absolute;

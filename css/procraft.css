@@ -108,9 +108,9 @@ img {
 
 .container {
   min-height: 500px;
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden; }
+  min-width: 1200px;
+  overflow-x: hidden;
+  margin: 0 auto; }
 
 .section-slash {
   position: absolute;
@@ -124,6 +124,26 @@ img {
   height: 536px;
   background: url(../images/procraft/procraft_01.jpg) center 0 repeat-x;
   background-size: auto 100%; }
+  .header-img-desc {
+    position: relative;
+    width: 900px;
+    height: 473px;
+    margin: 0 auto; }
+    .header-img-desc-txt {
+      position: absolute;
+      bottom: 25px;
+      left: 0; }
+      .header-img-desc-txt img, .header-img-desc-txt p {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px; }
+      .header-img-desc-txt p {
+        background-color: #094;
+        padding: 3px 8px;
+        color: #fff;
+        font-size: 14px; }
+        .header-img-desc-txt p > span:not(:last-child) {
+          margin-right: 22px; }
 
 .proc-section.bg1 {
   height: 400px;

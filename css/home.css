@@ -108,9 +108,9 @@ img {
 
 .container {
   min-height: 500px;
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden; }
+  min-width: 1200px;
+  overflow-x: hidden;
+  margin: 0 auto; }
 
 .section-slash {
   position: absolute;
@@ -157,7 +157,7 @@ img {
     padding-bottom: 2px;
     margin-bottom: 28px; }
   .section-desc {
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 1px; }
   .section-more {
     margin-top: 30px;

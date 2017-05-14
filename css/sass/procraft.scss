@@ -4,6 +4,32 @@
     height: 536px;
     background: url(../images/procraft/procraft_01.jpg) center 0 repeat-x;
     background-size: auto 100%;
+
+    &-img-desc{
+        position: relative;
+        width: 900px;
+        height: 473px;
+        margin: 0 auto;
+        &-txt{
+            position: absolute;
+            bottom: 25px;
+            left: 0;
+            img,p{
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 20px;
+            }
+            p{
+                background-color: #094;
+                padding: 3px 8px;
+                color: #fff;
+                font-size: 14px;
+                &>span:not(:last-child){
+                    margin-right: 22px;
+                }
+            }
+        }
+    }
 }
 
 .proc-section{

@@ -4,6 +4,37 @@
     height: 536px;
     background: #000 url(../images/products/pro_01.jpg) center 0 no-repeat;
     background-size: auto 100%;
+
+    &-img-desc{
+        position: relative;
+        width: 900px;
+        height: 473px;
+        margin: 0 auto;
+        &-txt{
+            position: absolute;
+            bottom: 30px;
+            right: 0;
+            p{
+                color: #fff;
+                font-size: 18px;
+                &>span{
+                    position: relative;
+                    margin-left: 20px;
+                    padding-left: 20px;
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 4px;
+                        height: 12px;
+                        width: 12px;
+                        border-radius: 50%;
+                        background-color: #094;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .pro-section{

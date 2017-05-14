@@ -108,9 +108,9 @@ img {
 
 .container {
   min-height: 500px;
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden; }
+  min-width: 1200px;
+  overflow-x: hidden;
+  margin: 0 auto; }
 
 .section-slash {
   position: absolute;
@@ -124,6 +124,31 @@ img {
   height: 536px;
   background: #000 url(../images/products/pro_01.jpg) center 0 no-repeat;
   background-size: auto 100%; }
+  .header-img-desc {
+    position: relative;
+    width: 900px;
+    height: 473px;
+    margin: 0 auto; }
+    .header-img-desc-txt {
+      position: absolute;
+      bottom: 30px;
+      right: 0; }
+      .header-img-desc-txt p {
+        color: #fff;
+        font-size: 18px; }
+        .header-img-desc-txt p > span {
+          position: relative;
+          margin-left: 20px;
+          padding-left: 20px; }
+          .header-img-desc-txt p > span:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            background-color: #094; }
 
 .pro-section.bg1 {
   background: url(../images/products/pro_02.jpg) center 0 repeat-x; }
