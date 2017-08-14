@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>冠蝶贴膜 - 生产工艺</title>
         <link rel="stylesheet" href="./css/procraft.css">
+        <script type="text/javascript" src="./js/jquery.js">
+
+        </script>
     </head>
     <body>
         <div class="header">
@@ -67,6 +70,105 @@
                     </div>
                 </div>
             </div>
+
+            <div class="section black">
+                <i class="section-slash white" style="top: 99px; right: -1324px; left: 1260px;"></i>
+                <div class="develop">
+                    <div class="intro-tit">
+                        <div style="display: inline-block; text-align: left;">
+                            <img src="./images/procraft/font_06.png" alt="">
+                            <div class="intro-hint">生产视频</div>
+                        </div>
+                    </div>
+                    <div class="mv-body">
+                        <div class="mv-nav">
+                            <div class="mv-box active" id="mv1">
+                                <img src="./images/procraft/mvbg01.png" alt="">
+                                <div class="txt">
+                                    生产视频 <div style="font-size:12px;">Making process</div>
+                                </div>
+                            </div>
+                            <div class="mv-box" id="mv2">
+                                <img src="./images/procraft/mvbg01.png" alt="">
+                                <div class="txt">
+                                    光亮度制作流程 <div style="font-size:12px;">Making process</div>
+                                </div>
+                            </div>
+                            <div class="mv-box" id="mv3">
+                                <img src="./images/procraft/mvbg01.png" alt="">
+                                <div class="txt">
+                                    抗刮痕制作流程 <div style="font-size:12px;">Making process</div>
+                                </div>
+                            </div>
+                            <div class="mv-box" id="mv4">
+                                <img src="./images/procraft/mvbg01.png" alt="">
+                                <div class="txt">
+                                    抗污染制作流程 <div style="font-size:12px;">Making process</div>
+                                </div>
+                            </div>
+                            <div class="mv-box" id="mv5">
+                                <img src="./images/procraft/mvbg01.png" alt="">
+                                <div class="txt">
+                                    石子弹射制作流程 <div style="font-size:12px;">Making process</div>
+                                </div>
+                            </div>
+                            <div class="mv-box" id="mv6">
+                                <img src="./images/procraft/mvbg01.png" alt="">
+                                <div class="txt">
+                                    紫外线制作流程 <div style="font-size:12px;">Making process</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mv">
+                            <video id="mv1B" width="657" height="382" src="./mvs/Grafityp-CN.mp4" poster="./images/procraft/mv01.png" controls="controls">
+                                your browser does not support the video tag
+                            </video>
+                            <video style="display: none;" id="mv2B" width="657" height="382" src="./mvs/光亮度01.mp4" poster="./images/procraft/mv01.png" controls="controls">
+                                your browser does not support the video tag
+                            </video>
+                            <video style="display: none;" id="mv3B" width="657" height="382" src="./mvs/抗刮痕01.mp4" poster="./images/procraft/mv01.png" controls="controls">
+                                your browser does not support the video tag
+                            </video>
+                            <video style="display: none;" id="mv4B" width="657" height="382" src="./mvs/抗污染01.mp4" poster="./images/procraft/mv01.png" controls="controls">
+                                your browser does not support the video tag
+                            </video>
+                            <video style="display: none;" id="mv5B" width="657" height="382" src="./mvs/石子弹射01.mp4" poster="./images/procraft/mv01.png" controls="controls">
+                                your browser does not support the video tag
+                            </video>
+                            <video style="display: none;" id="mv6B" width="657" height="382" src="./mvs/紫外线01.mp4" poster="./images/procraft/mv01.png" controls="controls">
+                                your browser does not support the video tag
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    registerClick('#mv1');
+                    registerClick('#mv2');
+                    registerClick('#mv3');
+                    registerClick('#mv4');
+                    registerClick('#mv5');
+                    registerClick('#mv6');
+
+
+                    function registerClick(_id) {
+                        $(_id).click(function () {
+
+                            $(this).siblings().removeClass('active');
+                            $(this).addClass('active');
+
+                            $(this).addClass('active');
+                            $('.mv video').hide();
+                            $(_id+'B').show();
+                        })
+                    }
+                </script>
+                <div class="banner-txt">
+                    <h3>比利时冠蝶车身贴膜专家</h3>
+                    <p>全球车膜著名领导品牌 - 畅想汽车品质生活</p>
+                </div>
+            </div>
+
         </div>
         <div class="proc-section black">
             <div class="search-section">
