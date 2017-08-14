@@ -153,12 +153,19 @@
 
                     function registerClick(_id) {
                         $(_id).click(function () {
+                            document.getElementById("mv1B").pause();
+                            document.getElementById("mv2B").pause();
+                            document.getElementById("mv3B").pause();
+                            document.getElementById("mv4B").pause();
+                            document.getElementById("mv5B").pause();
+                            document.getElementById("mv6B").pause();
 
                             $(this).siblings().removeClass('active');
                             $(this).addClass('active');
 
                             $(this).addClass('active');
                             $('.mv video').hide();
+
                             $(_id+'B').show();
                         })
                     }
